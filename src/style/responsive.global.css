@@ -1,0 +1,116 @@
+@media screen and (max-width: 480px) {
+  nav {
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  nav ul {
+    display: inline;
+    position: absolute;
+    background: var(--bg-color);
+    left: -85%;
+    top: 300%;
+    padding: 50px 50px;
+    transform: translate(-220%, -0%);
+    border-radius: 0 0 50px 0;
+    transition: all 0.5s ease;
+  }
+  nav #nav-btn {
+    display: block;
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  #nav-box.active {
+    display: block;
+    position: absolute;
+    background: var(--bg-color);
+    left: 85%;
+    top: 300%;
+    padding: 50px 50px;
+    transform: translate(-220%, -50%);
+    border-radius: 0 0 50px 0;
+    transition: all 0.5s ease;
+  }
+  nav .get {
+    display: none;
+  }
+  .hero {
+    justify-content: center;
+  }
+  .hero .box {
+    text-align: center;
+  }
+  .hero .box h1 {
+    font-size: 40px;
+  }
+  .hero .box p {
+    font-weight: 300;
+    font-size: 15px;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+  .hero .box .button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .hero .box .button button {
+    animation: none;
+  }
+  .hero .box .button button:nth-child(2) {
+    animation: none;
+  }
+  .get-box .box div main img {
+    width: 300px;
+  }
+  .get-box .box div main .button button {
+    border: none;
+    background: var(--bg-color);
+    color: var(--text-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .down {
+    display: block;
+  }
+  .down i {
+    margin-left: 0;
+  }
+  .docs {
+    display: block;
+    height: 70vh;
+  }
+  .docs .box {
+    text-align: center;
+  }
+  .docs .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .docs .box p {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .docs .img img {
+    width: 200px;
+  }
+  .guide {
+    display: block;
+  }
+  .guide .box {
+    text-align: center;
+  }
+  .guide .img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+  }
+  .guide .img img {
+    width: 300px;
+  }
+  footer .box {
+    display: none;
+  }
+}

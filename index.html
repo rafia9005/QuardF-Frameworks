@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuardF Frameworks | helps you develop your website</title>
+    <!-- 👇 css code file 👇 -->
+    <link rel="shortcut icon" href="./src/image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/style/global.css" />
+    <link rel="stylesheet" href="./src/style/responsive.global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo" data-aos="fade-right" data-aos-delay="800">
+                <h1>QuardF</h1>
+            </div>
+            <ul id="nav-box" data-aos="fade-down" data-aos-delay="800">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#docs">Docs</a></li>
+                <li><a href="#guide">Guide</a></li>
+                <li><a href="">Feature</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="get" data-aos="fade-left" data-aos-delay="800">
+                <button onclick="" id="show-get-btn">Get Started <i class="fa-solid fa-play"></i></button>
+            </div>
+            <!-- show button -->
+            <i class="fa-solid fa-bars" id="nav-btn"></i>
+            <!-- end show button -->
+        </nav>
+    </header>
+    <div class="hero" id="home">
+        <div class="box">
+            <h1>QuardF is a framework that<br>helps you develop your website</h1>
+            <p>This framework was made by 1 devoloper, namely rafia9005 and was created to help you make starting a web
+                easier</p>
+            <div class="button">
+                <button onclick="" id="show-get-btn1">Get Started</button>
+                <button onclick="docs();">Docs</button>
+            </div>
+            <div class="down">
+                <i class="fa-solid fa-down-long"></i>
+                <br>
+                <small>scroll down</small>
+            </div>
+        </div>
+        <div class="box">
+        </div>
+    </div>
+
+    <!-- start show modal button -->
+    <div class="get-box">
+        <div class="box">
+            <i class="fa-solid fa-xmark" id="close-btn"></i>
+            <div>
+                <main>
+                    <h1>QuardF Frameworks</h1>
+                    <img src="./src/image/cdn.png" alt="" width="600px">
+                    <br>
+                    <div class="button" style="justify-content: center; align-items: center; display: flex;">
+                        <button onclick="copyText()">Copy</button>
+                    </div>
+                    <p align="center">copy the code then paste it in the head section of your html code</p>
+                </main>
+            </div>
+        </div>
+    </div>
+    <!-- end show modal button -->
+
+    <!-- Docs -->
+    <div class="docs" id="docs">
+        <div class="img">
+            <img src="./src/image/logo.png" alt="" width="400px">
+        </div>
+        <div class="box">
+            <h1>QuardF Frameworks</h1>
+            <small>framework with optimization features</small>
+            <p>QuardF Frameworks will really help you if you are just <br> learning about css and js, with this
+                framework it
+                will be very helpful</p>
+            <div class="button">
+                <button onclick="window.location.href='https://github.com/rafia9005/QuardF-Frameworks'">View
+                    Github</button>
+            </div>
+        </div>
+    </div>
+    <!-- Docs -->
+    <!-- Guide -->
+    <div class="guide" id="guide">
+        <div class="box">
+            <h1>QuardF Frameworks</h1>
+            <small>how to use this framework?</small>
+            <p>the method is via a cdn, you can copy and paste in <br> the head code section. to copy the code in the
+                get started menu</p>
+            <p>to go through npm install, for now it's still not there. <br> because the admin doesn't have money for
+                subscriptions</p>
+            <div class="button">
+                <button onclick="window.location.href='https://github.com/rafia9005/QuardF-Frameworks'">Support
+                    Me</button>
+            </div>
+        </div>
+        <div class="img">
+            <img src="./src/image/Guide.png" alt="" width="600px">
+        </div>
+    </div>
+    <!-- Guide -->
+    <!-- footer -->
+    <footer>
+        <div class="box">
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Guide</a></li>
+                <li><a href="">Feature</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h1>Forums</h1>
+            <ul>
+                <li><a href="">Chat</a></li>
+                <li><a href="">Comunity</a></li>
+                <li><a href="">Report</a></li>
+                <li><a href="">Update</a></li>
+            </ul>
+        </div>
+        <div class="copy">
+            <p>Copyright @2023 rafiisite. all Reverd</p>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- 👇 javascript code file 👇 -->
+    <script src="./src/js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
